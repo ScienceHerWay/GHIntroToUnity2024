@@ -7,6 +7,7 @@ public class Gun : MonoBehaviour
   //This is how to make drag and drop boxes for Instantiating assets.
   public GameObject bulletPrefab;
   public float bulletSpeed = 1f;
+  public bool isPlayer = false;
 
     // Start is called before the first frame update
     void Start()
